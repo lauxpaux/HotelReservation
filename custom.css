@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+.header {
+    height: 100px;
+    background-color: #EEF36A;
+    color: black;
+    text-align: center;  
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.nav {
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.navCol {
+    color: black;
+    justify-content: space-evenly;
+}
+
+.navCol:hover {
+    border: 1px solid #C8EB9A;
+    border-radius: 10%;
+    background-color: #DCE4E5;
+}
+
+.about {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 40px;
+    border-top: 2px solid #C8EB9A;
+    border-bottom: 2px solid #C8EB9A;
+    background-color: #DCE4E5;
+}
+
+.reserve {
+    width: 100%;
+    height: 15%;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#reserve {
+    position: relative;
+    top: 20%;
+} 
+
+#checkIn {
+    width: 100%;
+}
+
+#checkOut {
+    width: 100%;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.cardButton {
+    background-color: white; 
+    border: none;
+}
+
+.cardButton:hover {
+    border: 1px solid #C8EB9A;
+    border-radius: 10%;
+    background-color: #DCE4E5;
+}
+
+footer {
+    margin-top: 40px;
+    height: 120px;
+    background-color: #EEF36A;
+    padding: 0; 
+    bottom: 100%; 
+}
+
+.info {
+    text-align: center; 
+}

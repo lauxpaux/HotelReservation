@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.header {
+    height: 100px;
+    background-color: #EEF36A;
+    color: black;
+    text-align: center;  
+}
+
+.nav {
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.navCol {
+    color: black;
+    justify-content: space-evenly;
+}
+
+.navCol:hover {
+    border: 1px solid #C8EB9A;
+    border-radius: 10%;
+    background-color: #DCE4E5;
+}
+
+
+.img-fluid {
+    width: 100%;
+}
+
+.info {
+    text-align: center; 
+}
+
+.explore {
+    margin-top: 80px;
+    margin-left: 450px;
+}
+
+.img-thumbnail {
+    width: 400px;
+    height: 400px;
+    /* margin-top: 10px; */
+    margin-left: 50px;
+}
+
+.eat, .shop, .woods {
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.info2 {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#pic2 {
+    margin-top: 10px;
+}
+
+.right {
+    margin-left: 30px;
+}
+
+
+.bottomShop {
+    margin-bottom: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 120px;
+    background-color: #EEF36A;
+    width: 100%;
+  
+    /* margin-left: -150px; */
+    /* bottom: 100%;  */
+}
+
+/* .ex {
+    position: fixed;
+    margin-top: 40px;
+    height: 120px;
+    background-color: #EEF36A;
+    padding: 0; 
+    bottom: 100%;
+    margin-left:
+} */
+
+
+
+
