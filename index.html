@@ -1,26 +1,26 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--CSS stylesheet-->
-    <link rel="stylesheet" type="text/css" href="bootstrap.css" alt="css styles">
-    <link rel="stylesheet" type="text/css" href="custom.css" alt="css styles">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--CSS stylesheet-->
+      <link rel="stylesheet" type="text/css" href="bootstrap.css" alt="css styles">
+      <link rel="stylesheet" type="text/css" href="custom.css" alt="css styles">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-   
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
 
-    <title>Hotel Reservation</title>
-</head>
+      <title>Hotel Reservation</title>
+  </head>
 <body>
 <div class="container-fluid">
 
-<header class="header">
-    <h1>Well Hotel</h1>
-</header>
+  <header class="header">
+      <h1>Well Hotel</h1>
+  </header>
 
 <!--Nav-->
 <div class=".nav">
@@ -77,16 +77,33 @@
 <div class="container-fluid reserve">
     <h2>Reserve</h2>
     <table class="table table-borderless">
-        <thead>
-            <tr>
-                <th scope="col">Check-In</th>
-                <th scope="col">Check-Out</th>
-                <th scope="col">Guests</th>
-                <th scope="col">Adults</th>
-                <th scope="col">Children</th>
-            </tr>
-        </thead>
-    </table>
+        <form id="form" method="post" action="roomsdb.php">
+          <div class="container-fluid reservation">
+            <!-- <p class="availLable">Check Availability</p> -->
+            <label for="checkin" class="resLabel">Check-In</label>
+            <input type="date" name="arrivalDate" id="arrivalDate">
+            <label for="checkout" class="resLabel">Check-Out</label>
+            <input type="date" name="departDate" id="departDate">
+            <label for="adults" class="resLabel">Adults: </label>
+            <select id="adults" name="adults">
+              <option value="1">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+            <label for="children" class="resLabel">Children: </label>
+            <select id="children" name="children">
+              <option value="1">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <button type="button" class="btn btn-primary" id="availBtn">Check Availability</button>
+        </div>  
+      </form>
+  </table>
 
 </div>
 
