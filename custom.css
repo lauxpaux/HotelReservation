@@ -53,18 +53,31 @@ h1 {
     margin-bottom: 20px;
 }
 
-#reserve {
-    position: relative;
-    top: 20%;
-} 
 
-#checkIn {
-    width: 100%;
+.availLable {
+   font-style: italic; 
+   padding: 0; 
 }
 
-#checkOut {
-    width: 100%;
+.resLabel{
+    font-weight: bold; 
+    margin-right: 10px;
+    margin-left: 10px;
 }
+
+#availBtn {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    background-color: #EEF36A;
+    color: black;
+    border: 1px solid #EEF36A;
+}
+
+#availBtn:hover {
+    border-radius: 7%;
+    background-color: #2195D2;
+}
+
 
 .card {
     margin-top: 40px;
